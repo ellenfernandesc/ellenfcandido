@@ -10,3 +10,5 @@ Projeto da aula de Programação Orientada a Objetos:
 5. Insira os valores nas linha da tabela criada
 6. Visualize as informações da tabela
 7. Repita os mesmos passoa para a tabela modelo - tb_modelo no mesmo schema.
+
+o código em SQL utilizado nesse projeto está disponível no arquivo banco_montadora
