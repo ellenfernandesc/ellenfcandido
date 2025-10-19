@@ -12,4 +12,5 @@ Meu website: https://https://ellenfernandescandido.my.canva.site/
 Estrutura do repositório
 
 /academicos --> Projetos Acadêmicos  
-/pessoal --> Projetos Pessoais  
+/pessoal --> Projetos Pessoais 
+
