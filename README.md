@@ -13,7 +13,7 @@
 </div>  
 
 
-Meu website: https://https://ellenfernandescandido.my.canva.site/
+Meu website: https://ellenfernandescandido.my.canva.site/
 
 Estrutura do repositório
 
