@@ -1,0 +1,39 @@
+CREATE SCHEMA db_auto;
+
+USE db_auto;
+
+CREATE TABLE tb_montadora(
+  idt_montadora INT AUTO_INCREMENT PRIMARY KEY,
+  sgl_montadora VARCHAR(20) NOT NULL UNIQUE KEY,
+  nme_montadora VARCHAR(50) NOT NULL);
+
+INSERT INTO tb_montadora VALUES
+  (DEFAULT, 'FIAT', 'Fábrica Italiana de Automóveis de Turim'),
+  (DEFAULT, 'VW', 'Volkswagen (Carro do Povo)'),
+  (DEFAULT, 'GM', 'General Motors'),
+  (DEFAULT, 'GWM', 'Great Wall Motors'),
+  (DEFAULT, 'BYD', 'Build Your Dreams');
+  
+SELECT * FROM tb_montadora;
+
+CREATE TABLE tb_modelo(
+  idt_modelo INT AUTO_INCREMENT PRIMARY KEY,
+  nme_modelo VARCHAR(50) NOT NULL,
+  cod_montadora INT NOT NULL,
+  CONSTRAINT fk_montadora_modelo FOREIGN KEY (cod_montadora) 
+    REFERENCES tb_montadora(idt_montadora)
+  );
+
+INSERT INTO tb_modelo VALUES
+  (DEFAULT, 'Pulse', 1),
+  (DEFAULT, 'Argo', 1),
+  (DEFAULT, 'Nivus', 2),
+  (DEFAULT, 'Polo', 2),
+  (DEFAULT, 'Onix', 3),
+  (DEFAULT, 'Haval H6', 4),
+  (DEFAULT, 'Tank 300', 4),
+  (DEFAULT, 'Ora 03', 4),
+  (DEFAULT, 'King', 5);
+
+SELECT * FROM tb_modelo;
+
