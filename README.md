@@ -4,6 +4,12 @@
   </a>
 </div>
 
+<div id="badges">
+  <a href="[https://www.linkedin.com/in/ellen-fernandes-candido/](https://www.instagram.com/ellenfernandes._?igsh=MWI2YzVkZWttZGwwZQ%3D%3D&utm_source=qr)">
+    <img src="https://img.shields.io/badge/Instagram-rosa?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram Badge"/>
+  </a>
+</div>
+
 </div>  
 
 
